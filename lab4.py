@@ -31,13 +31,13 @@ for line in fin:
     remove_special_char(word)
     
 fin1.close()
+
 #task 2
  
 fin2 = open("book.txt")
 
 special_char = string.punctuation
 lst_special_char = list(special_char)
-#print(lst_special_char)
       
 for line in fin:
   line = line.strip()
@@ -50,6 +50,7 @@ print(d)
 print(count)
 
 print()
+
 #Task 3
 
 for key,value in d.items():
@@ -101,7 +102,6 @@ def hist(fin):
   return d
     
 def sortingOfDict(d):
-  #keys = sorted(d.keys())
   sorted_list = []
   for key,val in d.items():
     sorted_list.append((val,key))
@@ -166,4 +166,4 @@ except:
   print("Error occured")
 
 #Task 8
-  
+print("Task 8")
