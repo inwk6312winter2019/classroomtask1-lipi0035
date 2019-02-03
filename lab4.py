@@ -32,8 +32,7 @@ for line in fin:
     
 fin1.close()
 
-#task 2
- 
+#task 2 
 fin2 = open("book.txt")
 
 special_char = string.punctuation
@@ -52,11 +51,9 @@ print(count)
 print()
 
 #Task 3
-
 for key,value in d.items():
   l.append((value,key))
-  #print(key,"",value)
-#print(d)
+
 l.sort(reverse = True)
 for val,key in l[:20]:
   print(key," ",val)
