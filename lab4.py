@@ -1,4 +1,4 @@
-'''#Task 1
+#Task 1
 import string
 
 count = 0
@@ -163,7 +163,7 @@ try:
   print("done")
   
 except:
-  print("Error occured")'''
+  print("Error occured")
 
 #Task 8
   
